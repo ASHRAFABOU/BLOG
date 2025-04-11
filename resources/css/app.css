@@ -1,0 +1,55 @@
+/* تحسين خلفية شريط التنقل */
+nav {
+    background-color: #4CAF50; /* لون أخضر جميل */
+    color: white;
+}
+
+/* تحسين الروابط في شريط التنقل */
+nav a {
+    color: white; /* نص أبيض */
+    padding: 10px 15px;
+    text-decoration: none; /* إزالة التحته */
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* تأثير عند المرور */
+}
+
+/* تأثير عند المرور بالماوس على الرابط */
+nav a:hover {
+    background-color: #45a049; /* تدرج لون عند المرور بالماوس */
+    border-radius: 5px; /* حواف دائرية */
+}
+
+/* إضافة حواف مدورة للعناصر في القائمة */
+ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* تحسين تنسيق العناصر داخل الـ dropdown */
+nav .dropdown-content a {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+nav .dropdown-content a:hover {
+    background-color: #ddd; /* تدرج عند المرور */
+}
+
+/* تحسين تصميم الهامبرغر */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .sm:hidden {
+        display: block;
+    }
+}
